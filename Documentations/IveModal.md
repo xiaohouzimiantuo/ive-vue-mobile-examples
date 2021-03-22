@@ -53,7 +53,6 @@ label | value
 此时data中应该出现label值 | 此时data中应该出现value值
 
 ### cteateFormTemplate创建默认输入框模板
-
 参数 | 说明 | 类型 
 ----|------|-----
 label | data中对应label的值 | String 
