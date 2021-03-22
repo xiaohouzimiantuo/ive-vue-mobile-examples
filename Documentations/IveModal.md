@@ -54,7 +54,7 @@ label | value
 
 ### cteateFormTemplate创建默认输入框模板
 参数 | 说明 | 类型 
-----|------|-----|------|-------
+----|------|-----
 label | data中对应label的值 | String 
 value | data中对应value的值 | String 
 
