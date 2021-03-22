@@ -2,7 +2,7 @@
 
 ## Project setup
 ```
-yarn install ive-vue --save
+yarn install ive-vue-mobile --save
 ```
 
 ### use in html
@@ -43,9 +43,6 @@ yarn install ive-vue --save
 
 ```
 ### use in es2015
-```
-
-```
 #### Global introduction
 ```
 import { createApp } from 'vue';
@@ -55,6 +52,7 @@ const app = createApp(App);
 app.use(IveVueMobile);
 ```
 #### On-demand introduction
+
 ```
 import { IveModal } from 'ive-vue-mobile';
 IveModal.show({
@@ -77,6 +75,9 @@ IveModal.show({
 ```
 
 ## More examples
+
 ```
-For more examples, please visit <a href="https://github.com/xiaohouzimiantuo/ive-vue-mobile-examples">https://github.com/xiaohouzimiantuo/ive-vue-mobile-examples</a>
+For more examples, please visit 
 ```
+<a href="https://github.com/xiaohouzimiantuo/ive-vue-mobile-examples">https://github.com/xiaohouzimiantuo/ive-vue-mobile-examples</a>
+
