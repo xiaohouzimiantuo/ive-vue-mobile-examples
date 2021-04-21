@@ -22,10 +22,40 @@ downLoadingIconShow | 是否显示触底加载的loading Icon | Boolean | true |
 downLoadingIcon | 触底加载的loading Icon | String | '' | 图片的链接
 
 ### 事件
-事件名 | 说明 | 类型  | 备注
-----|------|-----|------|-------
-refresh | 下拉刷新事件 | Function | 携带了一个next回调函数，在刷新内容成功后调用next()可以关闭下拉的加载状态，注意：当下拉刷新和触底加载同时出现的时候，只需将页面数据恢复到初始状态后直接调用next，组件会自动调用loadmore初始页
-loadmore | 触底加载事件 | Function | 携带了一个next回调函数，在加载内容成功后调用next()可以关闭加载状态，其中调用next(true)的情况下表示告诉组件，没有更多内容了，next()调用的时候则可以继续加载。注意：页面初始化的时候，如果内容没有填充满，则触发不了滚动事件，所以在没填充满的情况下，组件会再次调用loadmore回调内容，直到内容填满或者next(true)为止
+<table style="border-collapse: collapse;">
+<thead>
+  <tr>
+    <th>事件名</th>
+    <th>说明</th>
+    <th>备注</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>
+      refresh
+    </td>
+    <td>
+      下拉刷新事件
+    </td>
+    <td>
+      携带了一个next回调函数，在刷新内容成功后调用next()可以关闭下拉的加载状态，<span style="color: orange;">注意：当下拉刷新和触底加载同时出现的时候，只需将页面数据恢复到初始状态后直接调用next，组件会自动调用loadmore初始页</span>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      loadmore
+    </td>
+    <td>
+      触底加载事件
+    </td>
+    <td>
+      携带了一个next回调函数，在加载内容成功后调用next()可以关闭加载状态，其中调用next(true)的情况下表示告诉组件，没有更多内容了，next()调用的时候则可以继续加载。<span style="color: orange;">注意：页面初始化的时候，如果内容没有填充满，则触发不了滚动事件，所以在没填充满的情况下，组件会再次调用loadmore回调内容，直到内容填满或者next(true)为止</span>
+    </td>
+  </tr>
+ 
+</tbody>
+</table>
 
 
 #### 具体使用方法请看examples中的PullRefresh、PullAndDown、LoadMore三个vue文件
