@@ -10,9 +10,11 @@ copy('这是需要复制的文案').then(() => {
   alert('success');
 });
 
+<a target="_blank" href="https://github.com/xiaohouzimiantuo/ive-vue-mobile-examples/blob/master/examples/Copy.vue">查看示例</a>
 
 
-# 校验表单的方法
+
+# 校验表单的方法 validate
 ## 在表单提交之前校验值是否符合要求
 参数 | 说明 | 类型 | 默认值 | 备注
 ----|------|-----|------|-------
@@ -66,3 +68,7 @@ validate | 校验的方法 | Function | () => {} | 方法返回true则校验成�
 ### 返回的Promise说明
 成功：参数返回需要提交的表单数据，没有rules的相关内容
 失败：参数返回校验失败的提示信息，用于直接弹出错误提示
+
+
+
+<a target="_blank" href="https://github.com/xiaohouzimiantuo/ive-vue-mobile-examples/blob/master/examples/Validate.vue">查看示例</a>

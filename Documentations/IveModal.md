@@ -58,4 +58,6 @@ label | value
 label | data中对应label的值 | String 
 value | data中对应value的值 | String 
 
+<a target="_blank" href="https://github.com/xiaohouzimiantuo/ive-vue-mobile-examples/blob/master/examples/Modal.vue">查看示例</a>
+
 

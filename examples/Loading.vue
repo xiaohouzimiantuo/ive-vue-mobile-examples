@@ -17,7 +17,8 @@ import {
   ref
 } from "vue";
 
-import { IveLoading } from "ive-vue-mobile";
+import { IveLoading } from "@/components";
+// import { IveLoading } from "ive-vue-mobile";
 export default defineComponent({
   setup() {
     const visible = ref(true);

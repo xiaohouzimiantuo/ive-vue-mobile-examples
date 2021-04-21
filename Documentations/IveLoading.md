@@ -39,3 +39,6 @@ font | 字体样式 | Object | {} | { color: '#385f66', fontSize: '24px' }
 
 # IveLoading.clear 关闭所有loading
 ## 使用IveLoading.clear()来清除所有loading
+
+
+<a target="_blank" href="https://github.com/xiaohouzimiantuo/ive-vue-mobile-examples/blob/master/examples/Loading.vue">查看示例</a>

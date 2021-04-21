@@ -10,3 +10,4 @@ initX | 水平的初始位置 | Number | 0 |
 initY | 垂直的初始位置 | Number | 0 | 
 
 
+<a target="_blank" href="https://github.com/xiaohouzimiantuo/ive-vue-mobile-examples/blob/master/examples/Drager.vue">查看示例</a>

@@ -1,11 +1,130 @@
 # ive-vue-mobile
 
-## Project setup
+## 介绍 
+ive-vue-mobile 封装了一些简单常用的组件和方法，更多组件还在完善中，敬请期待
+## 目录
+### 组件
+
+<table style="border-collapse: collapse;">
+<thead>
+  <tr>
+    <th>组件名称</th>
+    <th>说明</th>
+    <th>详细用法</th>
+    <th>文档</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>
+      IveModal
+    </td>
+    <td>
+      弹窗组件
+    </td>
+    <td>
+      <a href="https://github.com/xiaohouzimiantuo/ive-vue-mobile-examples/blob/master/examples/Modal.vue">查看</a>
+    </td>
+    <td>
+      <a href="https://github.com/xiaohouzimiantuo/ive-vue-mobile-examples/blob/master/Documentations/IveModal.md">查看</a>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      IveDrager
+    </td>
+    <td>
+      拖拽组件
+    </td>
+    <td>
+      <a href="https://github.com/xiaohouzimiantuo/ive-vue-mobile-examples/blob/master/examples/Drager.vue">查看</a>
+    </td>
+    <td>
+      <a href="https://github.com/xiaohouzimiantuo/ive-vue-mobile-examples/blob/master/Documentations/IveDrager.md">查看</a>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      IveLoading
+    </td>
+    <td>
+      加载组件
+    </td>
+    <td>
+      <a href="https://github.com/xiaohouzimiantuo/ive-vue-mobile-examples/blob/master/examples/Loading.vue">查看</a>
+    </td>
+    <td>
+      <a href="https://github.com/xiaohouzimiantuo/ive-vue-mobile-examples/blob/master/examples/IveLoading.md">查看</a>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      IvePullRefresh
+    </td>
+    <td>
+      下拉刷新&&触底加载组件
+    </td>
+    <td>
+      <a href="https://github.com/xiaohouzimiantuo/ive-vue-mobile-examples/blob/master/examples/PullRefresh.vue">查看下拉刷新示例</a> <br>
+      <a href="https://github.com/xiaohouzimiantuo/ive-vue-mobile-examples/blob/master/examples/LoadMore.vue">查看触底加载示例</a> <br>
+  <a target="_blank" href="https://github.com/xiaohouzimiantuo/ive-vue-mobile-examples/blob/master/examples/PullAndDown.vue">查看下拉刷新和触底加载同时存在的示例</a>
+    </td>
+    <td>
+      <a href="https://github.com/xiaohouzimiantuo/ive-vue-mobile-examples/blob/master/examples/IvePullRefresh.md">查看</a>
+    </td>
+  </tr>
+</tbody>
+</table>
+
+### 方法
+<table style="border-collapse: collapse;">
+<thead>
+  <tr>
+    <th>方法名称</th>
+    <th>说明</th>
+    <th>详细用法</th>
+    <th>文档</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>
+      copy
+    </td>
+    <td>
+      复制方法
+    </td>
+    <td>
+      <a href="https://github.com/xiaohouzimiantuo/ive-vue-mobile-examples/blob/master/examples/Copy.vue">查看</a>
+    </td>
+    <td>
+      <a target="_blank" href="https://github.com/xiaohouzimiantuo/ive-vue-mobile-examples/blob/master/Documentations/methods.md">查看</a>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      validate
+    </td>
+    <td>
+      表单校验方法
+    </td>
+    <td>
+      <a href="https://github.com/xiaohouzimiantuo/ive-vue-mobile-examples/blob/master/examples/Validate.vue">查看</a> 
+    </td>
+    <td>
+      <a href="https://github.com/xiaohouzimiantuo/ive-vue-mobile-examples/blob/master/Documentations/methods.md">查看</a>
+    </td>
+  </tr>
+ 
+</tbody>
+</table>
+
+## 安装
 ```
 yarn install ive-vue-mobile --save
 ```
 
-### use in html
+### use in html 简单的介绍，以IveModal组件为例
 ```
 <script src="vue3_path/vue.runtime.global.js"></script>
 <script src="your_path/iveVueMobile.umd.js"></script>
@@ -42,8 +161,8 @@ yarn install ive-vue-mobile --save
 </script>
 
 ```
-### use in es2015
-#### Global introduction
+### use in es2015 
+#### 全局注册
 ```
 import { createApp } from 'vue';
 import IveVueMobile from 'ive-vue-mobile';
@@ -51,7 +170,7 @@ import IveVueMobile from 'ive-vue-mobile';
 const app = createApp(App);
 app.use(IveVueMobile);
 ```
-#### On-demand introduction
+#### On-demand 按需引入
 
 ```
 import { IveModal } from 'ive-vue-mobile';
@@ -79,5 +198,4 @@ IveModal.show({
 ```
 For more examples, please visit 
 ```
-<a href="https://github.com/xiaohouzimiantuo/ive-vue-mobile-examples">https://github.com/xiaohouzimiantuo/ive-vue-mobile-examples</a>
-
+<a target="_blank" href="https://github.com/xiaohouzimiantuo/ive-vue-mobile-examples">https://github.com/xiaohouzimiantuo/ive-vue-mobile-examples</a>
