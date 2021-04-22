@@ -1,7 +1,7 @@
 # ive-vue-mobile
 
 ## 介绍 
-ive-vue-mobile 封装了一些简单常用的组件和方法，更多组件还在完善中，敬请期待
+ive-vue-mobile 封装了一些简单手机端常用的组件和方法，库的总大小为400kb+。更多组件还在完善中，敬请期待。
 ## 目录
 ### 组件
 
@@ -54,7 +54,7 @@ ive-vue-mobile 封装了一些简单常用的组件和方法，更多组件还�
       <a href="https://github.com/xiaohouzimiantuo/ive-vue-mobile-examples/blob/master/examples/Loading.vue">查看</a>
     </td>
     <td>
-      <a href="https://github.com/xiaohouzimiantuo/ive-vue-mobile-examples/blob/master/examples/IveLoading.md">查看</a>
+      <a href="https://github.com/xiaohouzimiantuo/ive-vue-mobile-examples/blob/master/Documentations/IveLoading.md">查看</a>
     </td>
   </tr>
   <tr>
@@ -70,7 +70,7 @@ ive-vue-mobile 封装了一些简单常用的组件和方法，更多组件还�
   <a target="_blank" href="https://github.com/xiaohouzimiantuo/ive-vue-mobile-examples/blob/master/examples/PullAndDown.vue">查看下拉刷新和触底加载同时存在的示例</a>
     </td>
     <td>
-      <a href="https://github.com/xiaohouzimiantuo/ive-vue-mobile-examples/blob/master/examples/IvePullRefresh.md">查看</a>
+      <a href="https://github.com/xiaohouzimiantuo/ive-vue-mobile-examples/blob/master/Documentations/IvePullRefresh.md">查看</a>
     </td>
   </tr>
 </tbody>
