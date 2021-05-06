@@ -65,7 +65,7 @@ ive-vue-mobile 基于vue3封装了一些简单手机端常用的组件和方法�
       倒计时组件
     </td>
     <td>
-      <a href="https://github.com/xiaohouzimiantuo/ive-vue-mobile-examples/blob/master/examples/IveCountdown.vue">查看</a>
+      <a href="https://github.com/xiaohouzimiantuo/ive-vue-mobile-examples/blob/master/examples/Countdown.vue">查看</a>
     </td>
     <td>
       <a href="https://github.com/xiaohouzimiantuo/ive-vue-mobile-examples/blob/master/Documentations/IveCountdown.md">查看</a>
