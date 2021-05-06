@@ -1,7 +1,7 @@
 # ive-vue-mobile
 
 ## 介绍 
-ive-vue-mobile 封装了一些简单手机端常用的组件和方法，库的总大小为400kb+。更多组件还在完善中，敬请期待。
+ive-vue-mobile 基于vue3封装了一些简单手机端常用的组件和方法，库的总大小为400kb+，推荐使用按需引入的方法，方便Tree-Sharking。更多组件还在完善中，敬请期待。
 ## 目录
 ### 组件
 
@@ -55,6 +55,20 @@ ive-vue-mobile 封装了一些简单手机端常用的组件和方法，库的�
     </td>
     <td>
       <a href="https://github.com/xiaohouzimiantuo/ive-vue-mobile-examples/blob/master/Documentations/IveLoading.md">查看</a>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      IveCountdown
+    </td>
+    <td>
+      倒计时组件
+    </td>
+    <td>
+      <a href="https://github.com/xiaohouzimiantuo/ive-vue-mobile-examples/blob/master/examples/IveCountdown.vue">查看</a>
+    </td>
+    <td>
+      <a href="https://github.com/xiaohouzimiantuo/ive-vue-mobile-examples/blob/master/Documentations/IveCountdown.md">查看</a>
     </td>
   </tr>
   <tr>

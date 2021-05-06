@@ -41,7 +41,7 @@ export default defineComponent({
             {
               type: "err",
               text: "取消",
-              onClick: (data: any, close: Function) => {
+              onClick: (data: unknown, close: Function) => {
                 console.log(data);
                 close();
                 visible.value = true;
